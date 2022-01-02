@@ -1,0 +1,21 @@
+.drink-item {
+  color: white;
+  display: grid;
+  grid-template-columns: .2fr 1fr .2fr;
+  justify-items: center;
+}
+
+.drink-item p {
+  font-size: 1.5rem;
+}
+
+.drink-item button {
+  height: 40px;
+  align-self: center;
+  width: 40px;
+  grid-row: span 2;
+}
+
+.second-column {
+  grid-column: 2;
+}
